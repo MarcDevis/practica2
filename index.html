@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,46 +9,54 @@
 </head>
 <body>
     <nav class="nav mt-5 mx-auto" style="width: 1171px; top: 58px; height: 35px;">
-        <img src="img/practica 2.png" alt="">
-        <a class="nav-link" href="index.html">Home</a>
+        <img src="img/bhram.png" alt="">
+        <a class="nav-link active" href="index.html">Home</a>
         <a class="nav-link" href="blog.html">Blog</a>
         <a class="nav-link" href="contacte.html">Contacte</a>
+        <a class="nav-link" href="noticia.html">Noticia</a>
         <svg class="ms-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
             <path d="M21 21l-6 -6" />
           </svg>
     </nav>
-    <div class="container-fluid" style="width: 1171px; height: 484;">
+    <div class="container-fluid mt-5 mx-auto" style="width: 1171px; height: 484;">
         <div class="row">
-            <div class="col-md-8">
-                <h6>BY TOMAS LAURINAVICIUS IN INSPIRATION</h6>
-                <h1 class="title">How to accept rejection gracefully — and use it to grow</h1>
-                <p>adsasd</p>
+            <div class="col-7 me-1 hero rounded-2" style="width: 773px; height: 484px;">
+                <div class="mt-5 mx-5">
+                    <h6 class="mb-4">BY TOMAS LAURINAVICIUS IN INSPIRATION</h6>
+                    <h1 class="title me-5 pe-2">How to accept rejection gracefully — and use it to grow</h1>
+                    <p class="mt-5">User research is the reality check every project needs. Here's our guide to why you should be doing it — and how to get started.</p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h4>adsasd</h4>
-                <p>adsasd</p>
+            <div class="col-4 flex-column ms-2" style="width: 354px; height: 453px;">
+                <div class="d-flex pb-2 border-3 border-bottom">
+                    <h4>New</h4>
+                    <a class="ms-auto" href="">View all new</a>
+                </div>
+                <div class="mt-4" >
+                    <p style="color: #9B9B9B;">SEP 04 2018</p>
+                    <p>Our 15 favorite websites from August 2018</p>
+                </div>
+                <div class="mt-4" >
+                    <p style="color: #9B9B9B;">SEP 04 2018</p>
+                    <p style="color: #FF5480;">The beginners guide to user research</p>
+                </div>
+                <div class="mt-4" >
+                    <p style="color: #9B9B9B;">SEP 04 2018</p>
+                    <p>Web page layout 101: website anatomy every designer needs to learn</p>
+                </div>
+                <div class="mt-4" >
+                    <p style="color: #9B9B9B;">SEP 04 2018</p>
+                    <p>10 essential sections to a high-converting landing page</p>
+                </div>
+                    
+                    
+                
         
-        </div>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script>
-    // Detectar la URL actual
-    const currentPage = window.location.pathname;
-
-    // Seleccionar todos los enlaces de la barra de navegación
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    // Comparar cada enlace con la URL actual
-    navLinks.forEach(link => {
-      if (link.href.includes(currentPage)) {
-        link.classList.add('active');
-      } else {  
-        link.classList.remove('active');
-      }
-    });
-  </script>
+<script src="js/linkactiu.js"></script>
 </html>
